@@ -7,6 +7,7 @@
   color: white;
   position: relative;
   border-radius: 4px;
+  margin: 20px 10px;
 }
 .card-user {
   position: absolute;
@@ -26,10 +27,11 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
+  h2 {
+    font-size: 24px;
+  }
 }
-.card-description h2 {
-  font-size: 24px;
-}
+
 .card-description p {
   font-size: 14px;
   opacity: 0.7;
@@ -44,9 +46,10 @@
   z-index: 2;
   background: black;
   opacity: 0;
-}
-.card-link:hover {
-  opacity: 0.1;
+
+  &:hover {
+    opacity: 0.1;
+  }
 }
 
 .row {
